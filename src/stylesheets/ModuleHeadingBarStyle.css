@@ -1,0 +1,17 @@
+.headingbar {
+    background-color: #f5e6ff;
+    width: 100%;
+    height: 3rem;
+    margin-left: 0;
+    padding: 2% 0;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+  }
+  
+  .headingbartext {
+      font-size: 1.1rem;
+      margin-left: 1rem;
+      font-weight: bold;
+  }
+  

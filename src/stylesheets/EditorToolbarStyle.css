@@ -1,0 +1,25 @@
+.editortoolbar {
+width: 100%;
+background-color: black;
+position: fixed;
+bottom: 0px;
+height: 2.63rem;
+z-index: 100;
+}
+
+.runbtn {
+    background-color: #25c025;
+    border-radius: 0px;
+    color: white;
+    width: auto;
+    height: inherit;
+}
+
+.runbtn:hover {
+    background-color: rgb(49, 153, 49);
+    color: white;
+}
+
+.resetbtn, .solbtn {
+    height: inherit;
+}

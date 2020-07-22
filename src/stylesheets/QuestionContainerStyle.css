@@ -1,0 +1,34 @@
+.main-wrapper {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	top: 3rem;
+	left: 0px;
+    padding-top: 2rem;
+}
+
+.sidebar-container {
+	height: 100%;
+	position: fixed;
+    padding: 0px;
+    margin-top: -50px;
+    padding-top: 50px;
+}
+
+.sidebar-header {
+    position: relative;
+	padding-top: 10px;
+    background-color: rgb(39, 38, 38);
+    opacity: 0.9;
+    z-index: 3;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sidebar {
+    height: 85%;
+	position: relative;
+	overflow-y: scroll;
+}

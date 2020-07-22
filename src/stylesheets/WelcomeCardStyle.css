@@ -1,0 +1,9 @@
+.welcomestyle {
+  width: 100%;
+  position: relative;
+  top: 0.2rem;
+  border: 2px solid grey;
+  border-radius: 15px;
+  min-height: 26rem;
+}
+

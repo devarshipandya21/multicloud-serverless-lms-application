@@ -1,0 +1,10 @@
+.practicestyle {
+    width: 100%;
+    position: relative;
+    top: 0.2rem;
+    left: 0rem;
+    border: 2px solid grey;
+    border-radius: 15px;
+    margin-left: 0rem;
+    height: inherit;
+  }
