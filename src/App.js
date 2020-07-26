@@ -9,7 +9,8 @@ import SignupPage from "./components/SignupPage";
 import LoginPage from "./components/LoginPage";
 import StudentDashboard from "./components/StudentDashboard";
 import CourseStartPage from "./components/CourseStartPage";
-import SetProfilePage from "./components/SetProfilePage"
+import SetProfilePage from "./components/SetProfilePage";
+import FileUpload from "./components/Data Processing Module/FileUpload";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/student-dashboard" component={StudentDashboard} />
           <Route path="/course-page" component={CourseStartPage} />
           <Route path="/set-profile" component={SetProfilePage} />
+          <Route path="/fileupload" component={FileUpload} />
         </Switch>
       </Router>
     </div>
