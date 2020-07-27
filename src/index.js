@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import OnlineSupport from "./components/Online Support Module/OnlineSupport";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <OnlineSupport />
   </React.StrictMode>,
   document.getElementById('root')
 );
