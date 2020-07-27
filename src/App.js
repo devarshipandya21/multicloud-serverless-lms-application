@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -10,7 +9,7 @@ import LoginPage from "./components/LoginPage";
 import StudentDashboard from "./components/StudentDashboard";
 import CourseStartPage from "./components/CourseStartPage";
 import SetProfilePage from "./components/SetProfilePage";
-import FileUpload from "./components/Data Processing Module/FileUpload";
+import DataProcessing from "./components/Data Processing Module/DataProcessing";
 
 function App() {
   return (
@@ -24,7 +23,7 @@ function App() {
           <Route path="/student-dashboard" component={StudentDashboard} />
           <Route path="/course-page" component={CourseStartPage} />
           <Route path="/set-profile" component={SetProfilePage} />
-          <Route path="/fileupload" component={FileUpload} />
+          <Route path="/dataprocessing" component={DataProcessing} />
         </Switch>
       </Router>
     </div>
