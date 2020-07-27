@@ -4,11 +4,16 @@ var aws = require('aws-sdk');
 
 aws.config.update({
     region: 'us-east-1',
-    accessKeyId: 'ASIAX2ASTWWGXEVHX3V4',
-    secretAccessKey: 'gjtKvWvFwikG5z3/+RyTycKS2ejg37ngvA4Kewis',
-    sessionToken: 'FwoGZXIvYXdzEPf//////////wEaDB1Yy8uWW+9Zc2JVECK+AbrbVPRGNkFn4r2VBRIVGXuiHU/4xg7aLUPifln/bqxGT82e08ZwqHXNSH4vD9ThmgjvpX2+z/iQMlhWEHS6Ev2x1oEFJfDQfugPWSgz2vh8UkLqTL1KYKNBGGgUG2U11Rrsdat3U7qQj9+WnwAxHcKvNcg1FAKAcub1+/cPF9u1/Ka55/iq+fOor5sHVIMX/ZBFSFKXyz8UdrrI50bF90oeI3HU3NIjuK7IUWsSjyoOwNg6ZhOxIM+hFh1lGWIotIDv+AUyLdD6ERUkIP6KrnCOuuOBC9rFH0/FJDoFSWLMRBw1/k+4uWfw6qPuNYHgLoIkLw=='
+    accessKeyId: process.env.ACCESS_KEY_ID,
+    secretAccessKey: process.env.ACCESS_SECRET_KEY,
+    sessionToken: process.env.AWS_SESSION_TOKEN,
 })
 const UPLOADED_FILES_S3_BUCKET = 'uploaded-files-dal-serverless-lms'
+
+console.log(process.env.ACCESS_KEY_ID);
+console.log(process.env.ACCESS_SECRET_KEY);
+console.log(process.env.AWS_SESSION_TOKEN);
+
 
 // reffered to the article https://medium.com/@khelif96/uploading-files-from-a-react-app-to-aws-s3-the-right-way-541dd6be689 while writing the below code
 exports.sign_s3 = (req, res) => {
