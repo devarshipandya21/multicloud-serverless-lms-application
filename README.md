@@ -6,14 +6,14 @@
 **Last Modification Date:** 02 August 2020
 
 ## Authors
-* Devarshi Pandya(dv691600@dal.ca) B00840003
-* Jigar Makwana(Jigar.Makwana@dal.ca) B00842568
-* Krutin Trivedi(kr650539@dal.ca) B00843516
-* Kethan Srinivas Dasari(kt839122@dal.ca) B00842485
+* Devarshi Pandya
+* Jigar Makwana
+* Krutin Trivedi
+* Kethan Srinivas Dasari
 
 ## About the web application
 DALServerlessLMS is a serverless Learning Management System (LMS) which is built using a multi-cloud deployment model, and backend-as-a-service (BaaS). The LMS - “DALServerlessLMS”, provides a number of features such as online virtual assistance, which can quickly answer the queries of users, and also, it provides a chat functionality between the registered users of the same institute.
-The DALSoft5410 system uses cloud platforms - AWS [1], and GCP [2] to build, test, and deploy the application. The official documentation of AWS and GCP will be followed to build the different pieces.
+The DALSoft5410 system uses cloud platforms - AWS and GCP to build, test, and deploy the application. The official documentation of AWS and GCP will be followed to build the different pieces.
 The main features of the application includes:
 * User Management
 * Authentication
