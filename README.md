@@ -1,4 +1,3 @@
-# CSCI_5410_Project_Group13
 
 # DALServerlessLMS
 **A Multi-Cloud based Serverless Learning Management System** 
@@ -7,8 +6,8 @@
 **Last Modification Date:** 02 August 2020
 
 ## Authors
-* Jigar Makwana(Jigar.Makwana@dal.ca) B00842568
 * Devarshi Pandya(dv691600@dal.ca) B00840003
+* Jigar Makwana(Jigar.Makwana@dal.ca) B00842568
 * Krutin Trivedi(kr650539@dal.ca) B00843516
 * Kethan Srinivas Dasari(kt839122@dal.ca) B00842485
 
@@ -25,10 +24,4 @@ The main features of the application includes:
 * Analysis 2
 
 ## Deployment
-**Link to the repository:** ***https://github.com/JigarMakwana/CSCI_5410_Project_Group13***
-
 **Link to the deployed application:** ***https://deployed-branch.d3jgqtjocto49b.amplifyapp.com/*** 
-
-## References 
-[1] Amazon, "Amazon Web Services," AWS, [Online]. Available: https://aws.amazon.com/.
-[2] Google, "Google Cloud Platform," GCP, [Online]. Available: http://cloud.google.com.
